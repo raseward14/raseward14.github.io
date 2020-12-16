@@ -1,12 +1,44 @@
+<!-- HTML Bio with TWO CSS fies -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <meta charset="UTF-8">
+  <title>1.2.9 Exercise</title>
+
+  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- And now we have a second stylesheet! -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
 </head>
+
 <body>
-    <h1>Hi there</h1>
-    
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Richard A Seward</h2>
+      <img src="assets/images/richard.png" alt="image of my face" id="bio-image">
+      <p>Please take a few moments to browse through several of the projects i've built.<a href="https://github.com/raseward14">Enjoy!</a></p>
+
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">raseward14@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/raseward14">raseward14</a></li>
+        <li><strong>Portfolio:</strong> <a href="https://raseward14.github.io/">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
 </body>
+
 </html>
